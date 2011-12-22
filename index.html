@@ -14,7 +14,7 @@
       <div id="sections">
         <section id="contents">
           <h2>contents</h2>
-          <nav id="chapters">
+          <nav id="chaptersMenu">
             <ol>
               <li><a href="#">Introduction</a></li>
               <li><a href="#">Hello world</a></li>
@@ -27,13 +27,24 @@
           </nav>
         </section>
         <hr>
-        <section id="textDemo">
-          <h2>text examples</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla sodales eros vitae rutrum. Mauris ullamcorper dui vel mauris auctor sit amet accumsan metus suscipit. Donec lacinia lectus at augue ullamcorper placerat. Cras suscipit interdum tincidunt. Pellentesque posuere felis ut mi rutrum et ultricies diam convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tellus, sollicitudin et placerat et, laoreet non sapien. Mauris sapien lacus, egestas non placerat et, pharetra eget nisi. Nam vitae ipsum ligula, eu tincidunt eros. Nullam adipiscing, augue quis congue tincidunt, nibh nibh tempor diam, id laoreet odio purus ac felis. Fusce porttitor magna eu erat fermentum bibendum. Cras velit nulla, scelerisque ac tincidunt vitae, pulvinar a erat. Vestibulum sed diam non est accumsan hendrerit id eu ligula. Proin feugiat pellentesque urna ultricies pellentesque.</p>
-          <h3>Quisque ut turpis sed</h3>
-          <p>Lacus aliquam lobortis. Fusce eu massa in enim cursus tincidunt. Sed tincidunt facilisis nisl, vitae malesuada diam congue sit amet. Mauris vitae iaculis nulla. Curabitur ac cursus purus. Fusce non purus vel eros feugiat dapibus id id purus. In semper aliquet ullamcorper. Integer condimentum, mauris eget ornare lobortis, nulla quam fringilla dui, ac ullamcorper neque ante elementum lorem. Aenean nisi nulla, tincidunt nec vestibulum a, semper et metus.</p>
-          <h3>Nunc feugiat metus id augue</h3>
-          <p>Venenatis auctor. Fusce eget lacus ac elit accumsan accumsan non aliquet elit. Donec congue odio sit amet libero varius suscipit. Nullam congue mi sit amet justo faucibus iaculis. Aenean molestie felis eu mi vestibulum dapibus aliquam lorem pellentesque. Nulla interdum velit ac diam ornare at imperdiet neque mattis. Aenean luctus sodales diam id scelerisque. Cras augue est, interdum vitae viverra eu, imperdiet eu mi. Maecenas vulputate, mauris vel facilisis rhoncus, felis tortor sagittis risus, sit amet sagittis elit ante sit amet nulla. Maecenas iaculis eros ut diam egestas a vestibulum augue condimentum. Ut lobortis viverra velit nec elementum. Duis mollis iaculis gravida. Maecenas tortor nisi, tincidunt nec pharetra id, vestibulum non risus. Nunc sodales, enim vel venenatis vulputate, est odio dictum lacus, in vulputate diam dui sed lacus. Suspendisse potenti. In sagittis accumsan pretium.</p>
+        <section id="chapters">
+          <article id="textDemo">
+            <h2>text examples</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla sodales eros vitae rutrum. Mauris ullamcorper dui vel mauris auctor sit amet accumsan metus suscipit. Donec lacinia lectus at augue ullamcorper placerat. Cras suscipit interdum tincidunt. Pellentesque posuere felis ut mi rutrum et ultricies diam convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tellus, sollicitudin et placerat et, laoreet non sapien. Mauris sapien lacus, egestas non placerat et, pharetra eget nisi. Nam vitae ipsum ligula, eu tincidunt eros. Nullam adipiscing, augue quis congue tincidunt, nibh nibh tempor diam, id laoreet odio purus ac felis. Fusce porttitor magna eu erat fermentum bibendum. Cras velit nulla, scelerisque ac tincidunt vitae, pulvinar a erat. Vestibulum sed diam non est accumsan hendrerit id eu ligula. Proin feugiat pellentesque urna ultricies pellentesque.</p>
+            
+            <h3>Quisque ut turpis sed</h3>
+            <p>Lacus aliquam lobortis. Fusce eu massa in enim cursus tincidunt. Sed tincidunt facilisis nisl, vitae malesuada diam congue sit amet. Mauris vitae iaculis nulla. Curabitur ac cursus purus. Fusce non purus vel eros feugiat dapibus id id purus. In semper aliquet ullamcorper. Integer condimentum, mauris eget ornare lobortis, nulla quam fringilla dui, ac ullamcorper neque ante elementum lorem. Aenean nisi nulla, tincidunt nec vestibulum a, semper et metus.</p>
+            
+<pre><code>(1..100).each{|i|
+  x = ''
+  x += 'Fizz' if i%3==0
+  x += 'Buzz' if i%5==0
+  puts(x.empty? ? i : x);
+}</code></pre>
+
+            <h3>Nunc feugiat metus id augue</h3>
+            <p>Venenatis auctor. Fusce eget lacus ac elit accumsan accumsan non aliquet elit. Donec congue odio sit amet libero varius suscipit. Nullam congue mi sit amet justo faucibus iaculis. Aenean molestie felis eu mi vestibulum dapibus aliquam lorem pellentesque. Nulla interdum velit ac diam ornare at imperdiet neque mattis. Aenean luctus sodales diam id scelerisque. Cras augue est, interdum vitae viverra eu, imperdiet eu mi. Maecenas vulputate, mauris vel facilisis rhoncus, felis tortor sagittis risus, sit amet sagittis elit ante sit amet nulla. Maecenas iaculis eros ut diam egestas a vestibulum augue condimentum. Ut lobortis viverra velit nec elementum. Duis mollis iaculis gravida. Maecenas tortor nisi, tincidunt nec pharetra id, vestibulum non risus. Nunc sodales, enim vel venenatis vulputate, est odio dictum lacus, in vulputate diam dui sed lacus. Suspendisse potenti. In sagittis accumsan pretium.</p>
+          </article>
         </section>
       </div>
     </div>

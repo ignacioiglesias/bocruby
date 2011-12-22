@@ -80,3 +80,14 @@ hr {
     border-top: 1px solid #444;
     margin: 25px 0;
 }
+
+pre {
+    margin: 25px;
+    color: #fff;
+    font-size: 1.25em;
+    border-radius: .5em;
+    background-color: #111;
+    padding: 10px;
+    line-height: 1.25em;
+    border: 1px solid #666;
+}

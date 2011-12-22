@@ -2,6 +2,7 @@
   var config = {
     'layout': {
       'selector': '.layout',
+      'speed': 'fast',
       'over': {
         'opacity': 1,
       },
@@ -14,11 +15,11 @@
   var layout;
   
   var layoutIn = function(ev) {
-    layout.stop().animate(config.layout.over);
+    layout.stop().animate(config.layout.over, config.layout.speed);
   }
   
   var layoutOut = function(ev) {
-    layout.stop().animate(config.layout.out);
+    layout.stop().animate(config.layout.out, config.layout.speed);
   }
   
   var init = function () {
