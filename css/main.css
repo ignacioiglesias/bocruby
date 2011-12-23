@@ -14,11 +14,15 @@ body {
     font-size: 0.8em;
 }
 
-#mainHeader {
+#mainHeader, #mainFooter {
     margin: 20px 0;
     padding: 10px 0;
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
+}
+
+#mainFooter {
+    text-align: center;
 }
 
 #mainHeader h1 a { 
