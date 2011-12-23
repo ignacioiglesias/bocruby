@@ -96,3 +96,10 @@ pre {
     line-height: 1.25em;
     border: 1px solid #666;
 }
+
+#githubRibbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+}
