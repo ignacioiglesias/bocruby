@@ -84,6 +84,7 @@ hr {
 pre {
     margin: 25px;
     color: #fff;
+    font-family: Monaco, Consolas, ;
     font-size: 1.25em;
     border-radius: .5em;
     background-color: #111;

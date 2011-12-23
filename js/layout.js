@@ -27,6 +27,9 @@
     layout = $(config.layout.selector);
     layout.hover(layoutIn, layoutOut);
     layoutOut(); // Turn light of ;) ;) <3 ;) BUNGA BUNGA (?)
+    
+    // Highlight code
+    prettyPrint();
   }
   
   $(document).ready(init);

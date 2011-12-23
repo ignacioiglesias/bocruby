@@ -4,6 +4,7 @@
     <title>bocruby</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css" media="all">
+    <link href="css/prettify.css" type="text/css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -35,7 +36,7 @@
             <h3>Quisque ut turpis sed</h3>
             <p>Lacus aliquam lobortis. Fusce eu massa in enim cursus tincidunt. Sed tincidunt facilisis nisl, vitae malesuada diam congue sit amet. Mauris vitae iaculis nulla. Curabitur ac cursus purus. Fusce non purus vel eros feugiat dapibus id id purus. In semper aliquet ullamcorper. Integer condimentum, mauris eget ornare lobortis, nulla quam fringilla dui, ac ullamcorper neque ante elementum lorem. Aenean nisi nulla, tincidunt nec vestibulum a, semper et metus.</p>
             
-<pre><code>(1..100).each{|i|
+<pre class="prettyprint"><code>(1..100).each{|i|
   x = ''
   x += 'Fizz' if i%3==0
   x += 'Buzz' if i%5==0
@@ -48,6 +49,7 @@
         </section>
       </div>
     </div>
+    <script type="text/javascript" src="js/prettify/prettify.js"></script>    
     <script src="js/jquery.js"></script>
     <script src="js/layout.js"></script>
   </body>
